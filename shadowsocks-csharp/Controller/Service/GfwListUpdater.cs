@@ -14,7 +14,7 @@ namespace Shadowsocks.Controller
 {
     public class GFWListUpdater
     {
-        private const string GFWLIST_URL = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt";
+        private const string GFWLIST_URL = "http://kong.getscroll.com/bluehost/pac.base64";
 
         public event EventHandler<ResultEventArgs> UpdateCompleted;
 

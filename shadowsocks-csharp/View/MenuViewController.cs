@@ -579,7 +579,7 @@ namespace Shadowsocks.View
 
         private void AboutItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/shadowsocks/shadowsocks-windows");
+            Process.Start("https://kong.getscroll.com/bluehost/pac.txt");
         }
 
         private void notifyIcon1_Click(object sender, MouseEventArgs e)
